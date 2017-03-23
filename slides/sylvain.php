@@ -8,7 +8,7 @@
                 <ul>
                     <li>Bootstrap est souvent utilisé uniquement pour sa grille</li>
                     <li>Certaines fonctionnalités peuvent être facilement factorisées</li>
-                    <li>Les task runners habituels (Grunt/Gulp) sont parfois lent</li>
+                    <li>Les task runners habituels (Grunt/Gulp) sont parfois lents</li>
                 </ul>
             </li>
         </ul>
