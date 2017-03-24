@@ -24,6 +24,43 @@
 
     <section>
         <h2>Technos / Outils utilisées en 2016</h2>
+<?php
+$technoSections = [
+
+    'Classique - LAMP' => [
+        'PHP' => './lib/images/logo/php.png',
+        'HTML 5 - CSS 3 - Javascript' => '.lib/images/logo/html_css_js.png',
+        'MySQL' => './lib/images/logo/mysql.jpg',
+        'Linux' => './lib/images/logo/linux.png',
+        'Apache' => './lib/images/logo/pache.png',
+    ],
+    'Aternatif' => [
+        "Node JS" => './lib/images/logo/nodejs.png',
+        "nginx" => './lib/images/logo/nginx.png',
+    ],
+    'Framework' => [
+        'codeigniter' => './lib/images/logo/codeigniter.png',
+        'wordpress' => './lib/images/logo/wordpress.png',
+        'zend' => './lib/images/logo/zend.png',
+        'symfony' => './lib/images/logo/symfony.png',
+        'carbone' => './lib/images/logo/carbone.png', // @TODO
+    ],
+    'Librairies' => [
+        'bootstrap' => './lib/images/logo/bootstrap.png',
+        'jquery' => './lib/images/logo/jquery.png',
+        'sage' => './lib/images/logo/sage.png',
+        'phinx' => './lib/images/logo/phinx.png',
+        'apidoc' => './lib/images/logo/apidoc.png',
+    ],
+    'Outils' => [
+        'Composer' => './lib/images/logo/composer.png',
+        'NPM' => './lib/images/logo/npm.png',
+        'Gulp' => './lib/images/logo/gulp.png',
+        'Bower' => './lib/images/logo/bower.png',
+        'grunt' => './lib/images/logo/grunt.png',
+    ],
+];
+?>
 <img class="fragment" data-fragment-index="6" src="./lib/images/logo/apache.png" atl="apache" style="border:none;width:10%;box-shadow: none;"/>
 <img class="fragment" data-fragment-index="8" src="./lib/images/logo/bootstrap.png" atl="bootstrap" style="border:none;width:10%;box-shadow: none;"/>
 <img class="fragment" data-fragment-index="8" src="./lib/images/logo/codeigniter.png" atl="codeigniter" style="border:none;width:10%;box-shadow: none;"/>
@@ -59,47 +96,7 @@
 <img class="fragment" data-fragment-index="5" src="./lib/images/logo/linux.png" atl="linux" style="border:none;width:10%;box-shadow: none;"/>
 <aside class="notes">
     <ul>
-        <li>Classique - LAMP
-            <ul>
-                <li>PHP</li>
-                <li>HTML 5 - CSS 3 - Javascript</li>
-                <li>MySQL</li>
-                <li>Linux</li>
-                <li>Apache</li>
-            </ul>
-        </li>
-        <li>Alternatif
-            <ul>
-                <li>Node JS - nginx</li>
-            </ul>
-        </li>
-        <li> Librairies / Framework
-            <ul>
-                <li>bootstrap</li>
-                <li>jquery</li>
-                <li>codeigniter</li>
-                <li>wordpress</li>
-                <li>zend</li>
-                <li>symfony</li>
-                <li>carbone (@todo)</li>
-            </ul>
-        </li>
-        <li> Outil d'aide au dev
-            <ul>
-                <li>sage</li>
-                <li>
-            </ul>
-        </li>
 
-        <li> Outils dep
-            <ul>
-                <li>Composer</li>
-                <li>NPM</li>
-                <li>Gulp</li>
-                <li>Bower</li>
-                <li>grunt</li>
-            </ul>
-        </li>
         <li>Gulp</li>
         <li>Grunt</li>
         <li>Bower</li>
