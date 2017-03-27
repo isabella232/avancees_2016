@@ -4,130 +4,159 @@
     </section>
 
     <section>
+        <h2>Veille: Quésaco ?</h2>
+        <ul>
+            <li>Deux formes de veilles:
+                <ul>
+                    <li>Veille de formation: Tester une techno
+                    <li>Veille process: Automatisation / Méthodo
+                </ul>
+        </ul>
+    </section>
+
+    <section>
         <h2>Acteurs</h2>
         <ul>
             <li>Chef de projets</li>
             <li>Lead Dev</li>
-            <li class="frament"><strong>Vous !!</strong></li>
+            <li class="fragment"><strong>Vous !!</strong></li>
         </ul>
     </section>
 
-    <section>
-        <h2>Techno</h2>
-        <ul>
-            <li>PHP 7: 25% à 70% plus performant</li>
-            <li>Let's enscrypt</li>
-            <li>Bootstrap 4</li>
-            <li>...</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Technos / Outils utilisées en 2016</h2>
 <?php
 $technoSections = [
-
-    'Classique - LAMP' => [
+    'LAMP' => [
         'PHP' => './lib/images/logo/php.png',
-        'HTML 5 - CSS 3 - Javascript' => '.lib/images/logo/html_css_js.png',
+        'HTML 5 - CSS 3 - Javascript' => './lib/images/logo/html_css_js.png',
         'MySQL' => './lib/images/logo/mysql.jpg',
         'Linux' => './lib/images/logo/linux.png',
-        'Apache' => './lib/images/logo/pache.png',
+        'Apache' => './lib/images/logo/apache.png',
     ],
-    'Aternatif' => [
+    'Alternatives' => [
         "Node JS" => './lib/images/logo/nodejs.png',
         "nginx" => './lib/images/logo/nginx.png',
+        "solr" => './lib/images/logo/solr.png',
     ],
-    'Framework' => [
+    'Frameworks' => [
         'codeigniter' => './lib/images/logo/codeigniter.png',
         'wordpress' => './lib/images/logo/wordpress.png',
+        'carbone' => 'CARBONE',
         'zend' => './lib/images/logo/zend.png',
         'symfony' => './lib/images/logo/symfony.png',
-        'carbone' => './lib/images/logo/carbone.png', // @TODO
     ],
     'Librairies' => [
-        'bootstrap' => './lib/images/logo/bootstrap.png',
-        'jquery' => './lib/images/logo/jquery.png',
-        'sage' => './lib/images/logo/sage.png',
-        'phinx' => './lib/images/logo/phinx.png',
-        'apidoc' => './lib/images/logo/apidoc.png',
+        'Bootstrap' => './lib/images/logo/bootstrap.png',
+        'JQuery' => './lib/images/logo/jquery.png',
+        'Sage' => './lib/images/logo/sage.png',
+        'Phinx' => './lib/images/logo/phinx.png',
+        'Apidoc' => './lib/images/logo/apidoc.png',
+        'WP Cli' => './lib/images/logo/wp-cli.png',
     ],
-    'Outils' => [
+    'Gestionnaires dépendances' => [
         'Composer' => './lib/images/logo/composer.png',
         'NPM' => './lib/images/logo/npm.png',
+        'Bower' => './lib/images/logo/bower.svg',
+    ],
+    'Task builder' => [
         'Gulp' => './lib/images/logo/gulp.png',
-        'Bower' => './lib/images/logo/bower.png',
         'grunt' => './lib/images/logo/grunt.png',
+        'Make' => './lib/images/logo/make.jpeg',
+        'Robo' => './lib/images/logo/robo.png',
+    ],
+    'Outils' => [
+        'Git' => './lib/images/logo/git.png',
+        'Gitlab' => './lib/images/logo/gitlab.png',
+        'Github' => './lib/images/logo/github.png',
+        'Rsync' => './lib/images/logo/rsync.png',
+        'Sass' => './lib/images/logo/sass.png',
+        'Postman' => './lib/images/logo/postman.png',
+        'Redmine' => './lib/images/logo/redmine.png',
+        'Electron' => './lib/images/logo/electron.png',
+        'Cloud OVH' => './lib/images/logo/ovh.png',
+        'Botify' => './lib/images/alex/botify.png',
+        'Uptrends' => './lib/images/alex/uptrends.png',
     ],
 ];
+
+$count = 0;
+$lastSection = null;
+// Main block
+foreach ($technoSections as $section => $values):
+    if ($section !== $lastSection) {
+        ++$count;
+        $lastSection = $section;
+    }
 ?>
-<img class="fragment" data-fragment-index="6" src="./lib/images/logo/apache.png" atl="apache" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="8" src="./lib/images/logo/bootstrap.png" atl="bootstrap" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="8" src="./lib/images/logo/codeigniter.png" atl="codeigniter" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="1000" src="./lib/images/logo/git.png" atl="git" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="7" src="./lib/images/logo/nodejs.png" atl="nodejs" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="1000" src="./lib/images/logo/gitlab.png" atl="gitlab" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="9" src="./lib/images/logo/gulp.png" atl="gulp" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="8" src="./lib/images/logo/jquery.png" atl="jquery" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="4" src="./lib/images/logo/mysql.jpg" atl="mysql" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="10" src="./lib/images/logo/phing.gif" atl="phing" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="1" src="./lib/images/logo/php.png" atl="php" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="1000" src="./lib/images/logo/redmine.png" atl="redmine" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="1000" src="./lib/images/logo/rsync.png" atl="rsync" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="10" src="./lib/images/logo/sass.png" atl="sass" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="8" src="./lib/images/logo/wordpress.png" atl="wordpress" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="8" src="./lib/images/logo/zend.png" atl="zend" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="1000" src="./lib/images/logo/apidoc.png" atl="apidoc" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="9" src="./lib/images/logo/bower.svg" atl="bower" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="9" src="./lib/images/logo/composer.png" atl="composer" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="1000" src="./lib/images/logo/github.png" atl="github" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="11" src="./lib/images/logo/grunt.png" atl="grunt" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="2" src="./lib/images/logo/html_css_js.png" atl="html_css_js" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="1000" src="./lib/images/logo/make.jpeg" atl="make." style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="7" src="./lib/images/logo/nginx.png" atl="nginx" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="9" src="./lib/images/logo/npm.png" atl="npm" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="9" src="./lib/images/logo/phinx.png" atl="phinx" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="1000" src="./lib/images/logo/postman.png" atl="postman" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="1000" src="./lib/images/logo/robo.png" atl="robo" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="1000" src="./lib/images/logo/electron.png" atl="electron" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="10" src="./lib/images/logo/sage.png" atl="sage" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="8" src="./lib/images/logo/symfony.png" atl="symfony" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="9" src="./lib/images/logo/wp-cli.png" atl="wp-cli" style="border:none;width:10%;box-shadow: none;"/>
-<img class="fragment" data-fragment-index="5" src="./lib/images/logo/linux.png" atl="linux" style="border:none;width:10%;box-shadow: none;"/>
-<aside class="notes">
-    <ul>
+<section>
+    <h2>Technos / Outils utilisées en 2016</h2>
+    <p><?= $section ?></p>
+<?php
+$width =  15;
+$notes = [];
+foreach ($values as $name => $src):
+    $notes[] = $name;
+    if ($name === 'carbone'):
+?>
+    <p  style="border:none;width:<?= $width ?>%;box-shadow:none;text-align:center;display:inline;margin: 15px 0px;"><strong>CARBONE</strong></p>
+<?php
+    else:
+?>
+    <img src="<?= $src ?>" alt="<?= $name ?>" style="border:none;width:<?= $width ?>%;box-shadow:none;"/>
+<?php
+endif;
+endforeach; ?>
+    <aside class="notes">
+        <ul>
+        <?= join('<li>', $notes) ?>
+        </ul>
+    </aside>
+    </section>
+<?php
+endforeach;
+$count++;
+?>
+<section>
+    <h2>Technos / Outils utilisées en 2016</h2>
+    <p>Et encore beaucoup d'autres ! </p>
+    <small>La diapo suivante est trop petite...</small>
+</section>
+<section>
+    <h2>Technos / Outils utilisées en 2016</h2>
+<?php
+$tmp = [];
+$count = 0;
+$lastSection = null;
+foreach ($technoSections as $section => $values) {
+    if ($section !== $lastSection) {
+        ++$count;
+        $lastSection = $section;
+    }
+    foreach ($values as $atl => $src) {
+        $tmp[]= [
+            'src' => $src,
+            'fragment' => $count,
+            'alt' => $atl,
+        ];
+    }
+}
 
-        <li>Gulp</li>
-        <li>Grunt</li>
-        <li>Bower</li>
-        <li>NPM</li>
-        <li>Composer</li>
-        <li>Sass</li>
-        <li>JQuery</li>
-        <li>Bootstrap 3</li>
-        <li>Bootstrap 4</li>
-        <li>Robo</li>
-        <li>Phinx</li>
-        <li>Phing</li>
-        <li>rsync</li>
-        <li>Worpress</li>
-        <li>CodeIgniter</li>
-        <li>Symfony</li>
-        <li>Zend Framework</li>
-        <li>Make</li>
-        <li>Git</li>
-        <li>Github</li>
-        <li>Redmine</li>
-        <li>GitLab</li>
-        <li>apidoc</li>
-        <li>Postman</li>
-        <li>wp-cli</li>
-        <li>sage-8</li>
-
-        <li>Carbon</li>
-        <li>VM OVH ???</li>
-    </ul>
-</aside>
-
+// Img
+shuffle($tmp);
+?>
+<div id='intro_techno_img_block'>
+<?php
+foreach ($tmp as $data):
+    if ($data['alt'] === 'carbone'):
+?>
+    <p  style="border:none;width:8%;box-shadow:none;text-align:center;display:inline;margin: 15px 0px;"><strong>CARBONE</strong></p>
+<?php
+    else:
+?>
+<img data-autoslide="50" class="fragment"  src="<?= $data['src'] ?>" alt="<?= $data['alt'] ?>" style="border:none;width:8%;box-shadow: none;"/>
+<?php
+    endif;
+endforeach;
+?>
+<div class="fragment"></div>
     </section>
 </section>
