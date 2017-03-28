@@ -26,7 +26,7 @@
         <ul>
             <li>Oui, regarde le titre du slide.</li>
             <li>Différents snapshots de serveurs préconfigurés</li>
-            <li>Des VM up & configurée en moins de 5 minutes</li>
+            <li>Des VM up & configurées en moins de 5 minutes</li>
             <li>Une API REST pour automatiser les tasks : up, down, snapshot, reset, ...</li>
         </ul>
     </section>
@@ -52,7 +52,7 @@
         <h6>VM OVH Cloud</h6>
         <h2>Y en 2017?</h2>
         <ul>
-            <li>Séparer les data des serveurs même : faciliter l'upgrade des serveurs</li>
+            <li>Séparer les datas des serveurs même : faciliter l'upgrade des serveurs</li>
             <li>Automatiser la gestion : créer le subdomain, la VM, backup via snapshot, timer d'inactivité,&nbsp;...</li>
             <li>Intégrer à Robo ?</li>
         </ul>

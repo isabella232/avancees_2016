@@ -36,6 +36,7 @@ $technoSections = [
         "Node JS" => './lib/images/logo/nodejs.png',
         "nginx" => './lib/images/logo/nginx.png',
         "solr" => './lib/images/logo/solr.png',
+        'redis' => './lib/images/logo/redis.png',
     ],
     'Frameworks' => [
         'codeigniter' => './lib/images/logo/codeigniter.png',

@@ -50,8 +50,9 @@
 
     <section>
         <h2>Puppet skilled</h2>
-        <p>Librairie pour codeigniter</p>
+        <p>Surcouche pour codeigniter</p>
         <ul>
+            <li>Enrichir le framework</li>
             <li>Composer</li>
             <li>Supprime le principe des librairies en singleton</li>
             <li>Container</li>
@@ -80,7 +81,7 @@
 
     <section>
         <h2>De nouveaux membres</h2>
-        <h6>Pour encore plus d'avancée !</h6>
+        <h6>Pour encore plus d'avancées !</h6>
         <p><strong>Romi: </strong>Chef de projet</p>
         <p><strong>Nathan: </strong>Développeur</p>
         <p><strong>Heng: </strong> Stagiaire</p>
