@@ -121,7 +121,7 @@ $count++;
 $tmp = [];
 $count = 0;
 $lastSection = null;
-$technoSections['Frameworks']['WP Cubi'] = './lib/images/logo/wp-cubi.jpg';
+$technoSections['Frameworks']['WP Cubi'] = './lib/images/logo/wp-cubi.png';
 foreach ($technoSections as $section => $values) {
     if ($section !== $lastSection) {
         ++$count;

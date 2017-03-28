@@ -27,39 +27,31 @@
 
     <section>
         <h2>What's inside ?</h2>
-        <pre class="fragment" style="font-size: 0.4em;">
-|-- .gitattributes
-|-- .gitignore
+        <pre class="fragment" style="font-size: 0.5em;background: #3f3f3f;color: #dcdcdc; font-weight:bolder;">
 |-- .robo
 |-- .rsyncignore
 |-- RoboFile.php
 |-- composer.json
-|-- config
+|-- config/
 |   |-- application.php
-|   |-- environments
-|   |   |-- development.php
-|   |   |-- production.php
-|   |   `-- staging.php
-|   |-- htaccess
-|   |   |-- htaccess-general
-|   |   |-- htaccess-performances
-|   |   |-- ...
+|   |-- environments/
+|   |-- htaccess/
 |   |-- local.php.sample
 |   |-- salt-keys.php
 |   |-- vars.php
 |-- phpcs.xml
-|-- vendor
-|-- web
+|-- vendor/
+|-- web/
 |   |-- .htaccess
 |   |-- .user.ini
-|   |-- app
-|   |   |-- languages
-|   |   |-- modules
-|   |   |-- mu-modules
-|   |   |-- themes
+|   |-- app/
+|   |   |-- languages/
+|   |   |-- modules/
+|   |   |-- mu-modules/
+|   |   |-- themes/
 |   |-- index.php
-|   |-- media
-|   |-- wp
+|   |-- media/
+|   |-- wp/
 `-- wp-cli.yml
         </pre>
     </section>
@@ -87,11 +79,6 @@
             <li>SEO (seo-framework, disallow-indexing)</li>
             <li>and many others (plugins autoloader, wpg-custom-login ... )</li>
         </ul>
-        <div style="font-size:0.5em;position:absolute;top:0;left:0">&lt;ul&gt;</div>
-        <div style="font-size:0.5em;position:absolute;top:0;right:0">&lt;ul&gt;</div>
-        <div style="font-size:0.5em;position:absolute;bottom:0;left:0">&lt;ul&gt;</div>
-        <div class="fragment"  data-autoslide="2000" style="font-size:0.5em;position:absolute;bottom:0;right:0">Étrange il manque &lt;ul&gt;...</div>
-        <div class="fragment" style="position:absolute;bottom:0;"></div>
         <aside class="notes">
             Comments
         </aside>
@@ -114,6 +101,12 @@
     <section>
         <h2>What next ?</h2>
         <video data-autoplay loop style="width: 55%;" src="./lib/videos/wordpress.mp4"></video>
+
+        <div style="font-size:0.5em;position:absolute;top:0;left:0">&lt;ul&gt;</div>
+        <div style="font-size:0.5em;position:absolute;top:0;right:0">&lt;ul&gt;</div>
+        <div style="font-size:0.5em;position:absolute;bottom:0;left:0">&lt;ul&gt;</div>
+        <div class="fragment"  data-autoslide="2000" style="font-size:0.5em;position:absolute;bottom:0;right:0">Étrange il manque &lt;ul&gt;...</div>
+        <div class="fragment" style="position:absolute;bottom:0;"></div>
     </section>
 
 </section>
