@@ -53,12 +53,13 @@
         <h6>Offre Agence</h6>
         <h2>Des outils en 2016</h2>
 
-        <div>
-            <img src="./lib/images/alex/botify.png" alt="Botify" style="border: none; width: 359px;" />
-            <img src="./lib/images/alex/botify-screen.png" alt="Botify" style="float: right; margin-left: 1em; border: none" />
-
-            <div style="float: left; width: 450px;">Crawler et outil d'analyses de log</div>
-        </div>
+        <table>
+            <tr>
+                <td style="vertical-align:middle"><img src="./lib/images/alex/botify.png" alt="Botify" style="border: none;" /><td>
+                <td style="vertical-align:middle"><img src="./lib/images/alex/botify-screen.png" alt="Botify" style="float: right; margin-left: 1em; border: none;" /></td>
+            </tr>
+        </table>
+        <p>Crawler et outil d'analyses de log</p>
 
         <aside class="notes">
             Comments
@@ -68,14 +69,13 @@
     <section>
         <h6>Offre Agence</h6>
         <h2>Des outils en 2016</h2>
-
-        <div>
-            <img src="./lib/images/alex/uptrends.png" alt="Uptrends" style="border: none; width: 359px;" />
-            <img src="./lib/images/alex/uptrends-screen.png" alt="Uptrends" style="float: right; margin-left: 1em; border: none" />
-
-            <div style="float: left; width: 450px;">Outil de monitoring et temps de réponse / perf</div>
-        </div>
-
+        <table style="border:none">
+            <tr style="border:none">
+                <td style="vertical-align:middle;border:none;width:40%"><img src="./lib/images/alex/uptrends.png" alt="Uptrends" style="border: none;" /></td>
+                <td style="vertical-align:middle;border:none;width:60%" rowspan="2"><img src="./lib/images/alex/uptrends-screen.png" alt="Uptrends" style="float: right; margin-left: 1em; border: none;" /></td>
+            </tr>
+        </table>
+            <p>Outil de monitoring et temps de réponse / perf</p>
         <aside class="notes">
             Comments
         </aside>
@@ -85,19 +85,22 @@
         <h6>Offre Agence</h6>
         <h2>En 2017</h2>
 
-        <div>
-            <img src="./lib/images/alex/2017.jpg" alt="" style="border: none; float: right; width: 40%;" />
-
-            <p style="float: left; width: 50%; white-space: nowrap;">
-                Sur un panel de 500 professionnels
-            </p>
-            <ul>
-                <li>6 / 10 > L'expérience utilisateur</li>
-                <li>5 / 10 > La web perf</li>
-                <li>3 / 10 > Le HTTPS</li>
-                <li>3 / 10 > Page AMP</li>
-            </ul>
-        </div>
+        <table>
+            <tr style="border: none;">
+                <td style="border: none;vertical-align:top;">
+                    <p style="font-size:0.8em">
+                        Sur un panel de 500 professionnels
+                    </p>
+                    <ul  style="font-size:0.8em">
+                        <li>6 / 10 > L'expérience utilisateur</li>
+                        <li>5 / 10 > La web perf</li>
+                        <li>3 / 10 > Le HTTPS</li>
+                        <li>3 / 10 > Page AMP</li>
+                    </ul>
+                </td>
+                <td style="border: none;"><img src="./lib/images/alex/2017.jpg" alt="" style="border: none;" /></td>
+            </tr>
+        </table>
 
         <aside class="notes">
             Comments

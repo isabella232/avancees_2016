@@ -101,12 +101,6 @@
     <section>
         <h2>What next ?</h2>
         <video data-autoplay loop style="width: 55%;" src="./lib/videos/wordpress.mp4"></video>
-
-        <div style="font-size:0.5em;position:absolute;top:0;left:0">&lt;ul&gt;</div>
-        <div style="font-size:0.5em;position:absolute;top:0;right:0">&lt;ul&gt;</div>
-        <div style="font-size:0.5em;position:absolute;bottom:0;left:0">&lt;ul&gt;</div>
-        <div class="fragment"  data-autoslide="2000" style="font-size:0.5em;position:absolute;bottom:0;right:0">Étrange il manque &lt;ul&gt;...</div>
-        <div class="fragment" style="position:absolute;bottom:0;"></div>
     </section>
 
 </section>
