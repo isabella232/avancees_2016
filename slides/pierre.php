@@ -1,7 +1,7 @@
 <!-- PIERRE -->
 <section data-background-image='./lib/images/background_pierre.png'>
     <section>
-        <h2>Overview / Wild Pelican / Flying Lobster</h2>
+        <h2>It's time for a new stack !</h2>
         <ul>
             <li>Inspired by roots/bedrock</li>
             <li>Folder structure</li>
@@ -15,6 +15,53 @@
         <aside class="notes">
             Comments
         </aside>
+    </section>
+
+    <section>
+        <h2>Welcome to ...</h2>
+        <img class="fragment"  src="./lib/images/logo/wp-cubi.png" alt="wp-cubi" style="border:none;box-shadow: none;"/>
+        <aside class="notes">
+            Comments
+        </aside>
+    </section>
+
+    <section>
+        <h2>What's inside ?</h2>
+        <pre class="fragment" style="font-size: 0.4em;">
+|-- .gitattributes
+|-- .gitignore
+|-- .robo
+|-- .rsyncignore
+|-- RoboFile.php
+|-- composer.json
+|-- config
+|   |-- application.php
+|   |-- environments
+|   |   |-- development.php
+|   |   |-- production.php
+|   |   `-- staging.php
+|   |-- htaccess
+|   |   |-- htaccess-general
+|   |   |-- htaccess-performances
+|   |   |-- ...
+|   |-- local.php.sample
+|   |-- salt-keys.php
+|   |-- vars.php
+|-- phpcs.xml
+|-- vendor
+|-- web
+|   |-- .htaccess
+|   |-- .user.ini
+|   |-- app
+|   |   |-- languages
+|   |   |-- modules
+|   |   |-- mu-modules
+|   |   |-- themes
+|   |-- index.php
+|   |-- media
+|   |-- wp
+`-- wp-cli.yml
+        </pre>
     </section>
 
     <section>
@@ -63,4 +110,10 @@
             Comments
         </aside>
     </section>
+
+    <section>
+        <h2>What next ?</h2>
+        <video data-autoplay loop style="width: 55%;" src="./lib/videos/wordpress.mp4"></video>
+    </section>
+
 </section>
