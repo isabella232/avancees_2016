@@ -41,7 +41,7 @@ $technoSections = [
     'Frameworks' => [
         'codeigniter' => './lib/images/logo/codeigniter.png',
         'wordpress' => './lib/images/logo/wordpress.png',
-        'carbone' => 'CARBONE',
+        'carbone' => './lib/images/logo/carbone.png',
         'zend' => './lib/images/logo/zend.png',
         'symfony' => './lib/images/logo/symfony.png',
     ],
@@ -96,15 +96,9 @@ $width =  15;
 $notes = [];
 foreach ($values as $name => $src):
     $notes[] = $name;
-    if ($name === 'carbone'):
-?>
-    <p  style="border:none;width:<?= $width ?>%;box-shadow:none;text-align:center;display:inline;margin: 15px 0px;"><strong>CARBONE</strong></p>
-<?php
-    else:
 ?>
     <img src="<?= $src ?>" alt="<?= $name ?>" style="border:none;width:<?= $width ?>%;box-shadow:none;"/>
 <?php
-endif;
 endforeach; ?>
     <aside class="notes">
         <ul>
@@ -127,6 +121,7 @@ $count++;
 $tmp = [];
 $count = 0;
 $lastSection = null;
+$technoSections['Frameworks']['WP Cubi'] = './lib/images/logo/wp-cubi.jpg';
 foreach ($technoSections as $section => $values) {
     if ($section !== $lastSection) {
         ++$count;
@@ -147,17 +142,43 @@ shuffle($tmp);
 <div id='intro_techno_img_block'>
 <?php
 foreach ($tmp as $data):
-    if ($data['alt'] === 'carbone'):
-?>
-    <p  style="border:none;width:8%;box-shadow:none;text-align:center;display:inline;margin: 15px 0px;"><strong>CARBONE</strong></p>
-<?php
-    else:
 ?>
 <img data-autoslide="50" class="fragment"  src="<?= $data['src'] ?>" alt="<?= $data['alt'] ?>" style="border:none;width:8%;box-shadow: none;"/>
 <?php
-    endif;
 endforeach;
 ?>
 <div class="fragment"></div>
+    </section>
+
+    <section>
+        <h2>Contributions projets open source</h2>
+        <ul>
+            <li>Pull requests
+                <ul>
+                    <li>wpscanteam/wpscan
+                    <li>picturepan2/spectre
+                    <li>globalis-ms/carbone
+                    <li>felixfbecker/php-language-server
+                    <li>wp-cli/wp-cli
+                </ul>
+            <li>Proposition d'amélioration
+                <ul>
+                    <li>Sage: Automating theme initialization
+        </ul>
+        <aside class="notes">
+            <ul>
+                <li>Pull requests
+                    <ul>
+                        <li>WP-Scan: Allow --cache-dir option in command line parameters (pierre),
+                        <li>picturepan2/spectre: nico (wording)
+                        <li>Carbone: licence MIT : 19 Nov 2015, 20 pull requests, 17 acceptées en 2016
+                        <li>PHP Implementation of the VS Code Language Server Protocol: Fix crash when returning null instead of a Type when trying to infer node type (esteban),
+                        <li>WP-Cli: Feature fix wp cli install (pierre),
+                    </ul>
+                <li>Proposition d'amélioration;
+                    <ul>
+                        <li>Sage: Automating theme initialization (with a Yeoman generator ?) (pierre)
+            </ul>
+        </aside>
     </section>
 </section>
