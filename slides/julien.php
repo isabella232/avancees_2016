@@ -104,7 +104,7 @@
       <h2>Méthode agile</h2>
         <p style="text-align: center; font-size: 0.8em;" >Des carnets de produit...</p>
         <div>
-            <img src="./lib/images/suivi1.png" alt="" style="border:0"/>
+            <img src="./lib/images/suivi1.png" alt="" style="width: 1000px; border:0"/>
         </div>
     </section>
 
@@ -113,7 +113,7 @@
       <h2>Méthode agile</h2>
         <p style="text-align: center; font-size: 0.8em;" >...pour améliorer le suivi</p>
         <div>
-            <img src="./lib/images/suivi2.png" alt="" style="border:0"/>
+            <img src="./lib/images/suivi2.png" alt="" style="width: 1000px; border:0"/>
         </div>
     </section>
 
