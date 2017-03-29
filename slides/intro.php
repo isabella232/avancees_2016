@@ -97,7 +97,7 @@ $notes = [];
 foreach ($values as $name => $src):
     $notes[] = $name;
 ?>
-    <img src="<?= $src ?>" alt="<?= $name ?>" style="border:none;width:<?= $width ?>%;box-shadow:none;"/>
+    <img src="<?= $src ?>" alt="<?= $name ?>" style="vertical-align: middle;border:none;width:<?= $width ?>%;box-shadow:none;"/>
 <?php
 endforeach; ?>
     <aside class="notes">
@@ -143,7 +143,7 @@ shuffle($tmp);
 <?php
 foreach ($tmp as $data):
 ?>
-<img data-autoslide="50" class="fragment"  src="<?= $data['src'] ?>" alt="<?= $data['alt'] ?>" style="border:none;width:8%;box-shadow: none;"/>
+<img data-autoslide="50" class="fragment"  src="<?= $data['src'] ?>" alt="<?= $data['alt'] ?>" style="vertical-align: middle;border:none;width:8%;box-shadow: none;"/>
 <?php
 endforeach;
 ?>
