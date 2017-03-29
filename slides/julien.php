@@ -23,7 +23,7 @@
         <h2>L'organisation</h2>
         <p style="text-align: center; font-size: 0.8em;" >2 pôles</p>
         <div class="fragment">
-            <img src="./lib/images/orga1.jpg" alt="" style="border:0"/>
+            <img src="./lib/images/orga1.jpg" alt="" style="width:700px; border:0"/>
         </div>
         <aside class="notes">
             <ul>
@@ -39,7 +39,7 @@
         <h2>L'organisation</h2>
         <p style="text-align: center; font-size: 0.8em;" >5 équipes de développement</p>
         <div>
-            <img src="./lib/images/orga2.jpg" alt="" style="border:0"/>
+            <img src="./lib/images/orga2.jpg" alt="" style="width:700px; border:0"/>
         </div>
     </section>
 
@@ -48,7 +48,7 @@
         <h2>L'organisation</h2>
         <p style="text-align: center; font-size: 0.8em;" >Equipes généralistes mais spécialisées</p>
         <div>
-            <img src="./lib/images/orga3.jpg" alt="" style="border:0"/>
+            <img src="./lib/images/orga3.jpg" alt="" style="width:700px; border:0"/>
         </div>
     </section>
 
@@ -57,7 +57,7 @@
         <h2>L'organisation</h2>
         <p style="text-align: center; font-size: 0.8em;" >Perméabilité des membres</p>
         <div>
-            <img src="./lib/images/orga4.jpg" alt="" style="border:0"/>
+            <img src="./lib/images/orga4.jpg" alt="" style="width:700px; border:0"/>
         </div>
     </section>
 
@@ -66,7 +66,7 @@
         <h2>L'organisation</h2>
         <p style="text-align: center; font-size: 0.8em;" >Perméabilité des types de projet</p>
         <div>
-            <img src="./lib/images/orga5.jpg" alt="" style="border:0"/>
+            <img src="./lib/images/orga5.jpg" alt="" style="width:700px; border:0"/>
         </div>
     </section>
 
@@ -75,7 +75,7 @@
         <h2>L'organisation</h2>
         <p style="text-align: center; font-size: 0.8em;" >Objectif 2017 : faire gonfler les équipes</p>
         <div>
-            <img src="./lib/images/orga6.jpg" alt="" style="border:0"/>
+            <img src="./lib/images/orga6.jpg" alt="" style="width:700px; border:0"/>
         </div>
     </section>
 
@@ -143,8 +143,8 @@
       <h2>La veille technologique</h2>
       <p>Mise en oeuvre 2016</p>
       <ul>
-          <li>Projets interne : Puppet, MUCD, Globox</li>
-          <li>Publications (Armel, Nico, Victor notamment)</li>
+          <li>Projets interne</li>
+          <li>Publications </li>
           <li>Formations certifiantes</li>
           <li>Point Lead bi-mensuel</li>
       </ul>
