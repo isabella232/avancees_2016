@@ -1,4 +1,4 @@
-<section data-background-image='./lib/images/background_julien.jpg' style="opacity:1">
+<section data-background-image='./lib/images/background_julien.jpg'>
     <section>
         <h2>La technique c'est bien...</h2>
             <img src="./lib/images/god.gif" alt="" style="width: 800px; border:0" />

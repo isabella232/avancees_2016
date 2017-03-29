@@ -1,6 +1,10 @@
 <section data-background-image='./lib/images/background_1.jpg'>
     <section>
         <h2>Veille techno et méthodo: Avancées 2016 et objectifs 2017</h2>
+        <aside class="notes">
+            Avant toute chose, je n'ai pas eu le choix sur le titre.
+            Vrai nom: Le véritable bilan de l'année et les objectifs pour 2017
+        </aside>
     </section>
 
     <section>
@@ -12,12 +16,29 @@
                     <li>Veille process: Automatisation / Méthodo
                 </ul>
         </ul>
+        <aside class="notes">
+            <ul>
+                <li>
+                    <ul>
+                        <li>Prendre ne main une techno non maitrisé
+                        <li>tester une nouvelle techno, nouvelle version, ...
+                    </ul>
+                <li>
+                    <ul>
+                        <li>Définir des processus d'automatisation
+                        <li>Évite les erreurs,
+                        <li> Méthodo Process plus clair, plus rapide
+                        <li> Tout le monde peut y contribuer
+                    </ul>
+            </ul>
+        </aside>
     </section>
 
     <section>
         <h2>Acteurs</h2>
         <ul>
-            <li>Chef de projets</li>
+            <li>Directeur technique</li>
+            <li>Directeur/Chef de projets</li>
             <li>Lead Dev</li>
             <li class="fragment"><strong>Vous !!</strong></li>
         </ul>
@@ -148,6 +169,10 @@ foreach ($tmp as $data):
 endforeach;
 ?>
 <div class="fragment"></div>
+<aside class="notes">
+    <p>Ne concerne que le plateau, externes ont-ils utilisés d'autre techno sur leurs projet</p>
+    <p>Pour cette année m'envoyer leur techno pour agrandir le nuage</p>
+</aside>
     </section>
 
     <section>
