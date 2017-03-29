@@ -1,5 +1,6 @@
 <!-- PIERRE -->
 <section data-background-image='./lib/images/background_pierre.png'>
+
     <section>
         <h2>It's time for a new stack !</h2>
         <ul>
@@ -13,7 +14,13 @@
             <li>Security</li>
         </ul>
         <aside class="notes">
-            Comments
+            <ul>
+                <li>Blog -> Appli</li>
+                <li>Robustesse ? Exp TMA</li>
+                <li>Industrialisation (sécu, perf, ...)</li>
+                <li>Essais, erreurs, projets ratés, retours en arrière</li>
+                <li>Bedrock ? besoin custom + robo + rsync + htaccess</li>
+            </ul>
         </aside>
     </section>
 
@@ -21,7 +28,11 @@
         <h2>Welcome to ...</h2>
         <img class="fragment"  src="./lib/images/logo/wp-cubi.png" alt="wp-cubi" style="border:none;box-shadow: none;"/>
         <aside class="notes">
-            Comments
+            <ul>
+                <li>1 an de travail (MG, PB, DD + Front + RG)</li>
+                <li>Sur 4 projets</li>
+                <li>Brainstorming au regalia</li>
+            </ul>
         </aside>
     </section>
 
@@ -54,6 +65,17 @@
 |   |-- wp/
 `-- wp-cli.yml
         </pre>
+        <aside class="notes">
+            <ul>
+                <li>Ou est WordPress ?</li>
+                <li>Composer</li>
+                <li>Robo (+ tard)</li>
+                <li>Config</li>
+                <li>htaccess</li>
+                <li>rsync</li>
+                <li>web</li>
+            </ul>
+        </aside>
     </section>
 
     <section>
@@ -65,7 +87,13 @@
             <li>RoboFile.php</li>
         </ul>
         <aside class="notes">
-            Comments
+            <ul>
+                <li>GitFlow</li>
+                <li>htaccess</li>
+                <li>install / build</li>
+                <li>deploy</li>
+                <li>update plugins</li>
+            </ul>
         </aside>
     </section>
 
@@ -80,7 +108,11 @@
             <li>and many others (plugins autoloader, wpg-custom-login ... )</li>
         </ul>
         <aside class="notes">
-            Comments
+            <ul>
+                <li>env de dev complet</li>
+                <li>plugins récurrents qualité+</li>
+                <li>plugins customs</li>
+            </ul>
         </aside>
     </section>
 
@@ -94,13 +126,28 @@
             <li>Image optimization</li>
         </ul>
         <aside class="notes">
-            Comments
+            <ul>
+                <li>theme starter / structure</li>
+                <li>preprocessing + make</li>
+                <li>bootstrap ? globbox</li>
+            </ul>
         </aside>
     </section>
 
     <section>
         <h2>What next ?</h2>
         <video data-autoplay loop style="width: 55%;" src="./lib/videos/wordpress.mp4"></video>
+        <aside class="notes">
+            <ul>
+                <li>GitHub + Packagist + Create project</li>
+                <li>wp-globalis-tools -> clean + packagist</li>
+                <li>Documentation</li>
+                <li>Robo base tasks (sync DB, sync media ...)</li>
+                <li>Theme generator</li>
+                <li>Site web ?</li>
+                <li>Présentation publique au WP Tech 2017 ?</li>
+            </ul>
+        </aside>
     </section>
 
 </section>
